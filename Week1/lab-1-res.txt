@@ -1,0 +1,54 @@
+Segurança Informática
+
+P1
+
+Q1 - ROD
+
+T2 - LOXPSMKOYWKSYB -> BENFICAEOMAIOR
+
+T3 -
+
+V -> 9 Logo corresponde ao A, logo a chave é 21
+J -> 6
+H -> 2 
+M -> 3
+N -> 4
+G -> 4
+B -> 3
+Y -> 3
+J -> 5
+L -> 1
+P -> 3
+I -> 1
+O -> 3
+Z -> 2
+D -> 1
+K -> 1
+
+O MAR SALGADO, QUANTO DO TEU SAL
+SAO LAGRIMAS DE PORTUGAL
+
+Q2 - 25 (não 26 pq 26 ia dar à mesma letra)
+
+Q3 - 13
+
+Q4 - Chiphertext-only attack (COA)
+
+T4 - TCZ MAHPL TCYHA OXA QOTNTU
+
+Q5 - 26^4 - 1 (-1 pq há uma chave que não altera a palavra, não sendo assim uma chave)
+
+Q6 - Chaves com letras todas iguais ou só com uma letra.
+
+T5 -  ISTO E FACIL
+
+Q7 - Known-plaintext attack
+
+T6 - 
+
+Q8 - !26
+
+Q9 - Não conseguiria -> !26 > 2^26 -> Levaria milhares e milhares de anos
+
+Q10 - 
+
