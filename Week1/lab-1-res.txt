@@ -50,5 +50,50 @@ Q8 - !26
 
 Q9 - Não conseguiria -> !26 > 2^26 -> Levaria milhares e milhares de anos
 
-Q10 - 
+Q10? - Em termos de número de chaves, parece-me ser
+segura, mas em termos de facilidade de ataque,
+não.
+
+Q11? - Sim, é vulnerável em ambas as situações.
+
+Q12? - 
+
+2^36 -> 1sec
+712882560 -> ?
+
+? = 0.010 sec = 1 centésimo de segundo
+
+Lançamento moedas -> 1001011101000111
+
+Q13 - 9
+
+Q14 - 7
+
+Q15 - 3
+
+Q16 - 4
+
+Q17? - Não, não ia.
+
+Q18? - Sim, vai.
+
+T8? - Aleatória.
+
+XOR da mensagem com a minha sequência -> 1001011001000110
+
+Q20 - 9
+
+Q21 - 9
+
+Q22 - 4
+
+Q23 - 2
+
+Q24? - É impossível obter o texto-limpo de volta, a não
+ser que também lhe envie a sequência resultante
+da minha experiência.
+
+
+
+
 
