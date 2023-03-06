@@ -46,7 +46,9 @@ Q13 - Escrever "enc -help" no openssl
 
 Q14 - Sim.
 
-Q15 - Rivest Cipher
+Q15 - Salsa20
+
+openssl enc -chacha20 -e -k abcdefg0123456789 -in plaintext.txt -out ciphertext.cc20 
 
 Q16 - Não, porque me parece ter pouca entropia.
 
@@ -54,13 +56,32 @@ Q17 - Não, não funcionou.
 
 Q18 - Está vazio.
 
-Q19 - 
+Q19? - 
 
 K   - Chave da cifra em hexadecimal.
     - Chave da cifra em ASCII.
 out - Nome do ficheiro de saída.
 in  - Nome do ficheiro de entrada.
 e   - Operação de cifra.
+
+Q20? - 
+
+openssl enc -chacha20 -d -k abcdefg0123456789 -in ciphertext.cc20 -out solved.cc20  
+
+Q21? - Sim, precisei nomeadamente da chave de cifra.
+
+Q22? - Ao facto da mesma chave de cifra ser usada para cifrar e para decifrar
+
+Q23? -  Sim.
+
+Q24? - ?
+
+Q25? - Rivest Cipher 4
+
+Q26? -  Wired Equivalent Privacy (WEP).
+
+
+
 
 
 
