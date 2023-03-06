@@ -1,0 +1,69 @@
+T1 / Q1 - OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer
+Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general purpose cryptography
+library.
+
+Toolkit que implementa ferramentas criptograficas.
+
+Q2 - O OpenSSL é muito importante e continha um mega bug que ía acabando com a Internet (HeartBleed).
+
+Q3 -  Escrevendo "man comando"
+
+Q4 - Sim, há...um é um toolkit e outro é um comando.
+
+Q5 - Penso que sim.
+
+Q6 - Sim.
+
+Q7 - Sim.
+
+Q8 - Sim.
+
+Q9 - Não.
+
+T2 - openssl rand -hex 10
+
+T3 / Q10 - Não (No Fedora não, no Ubuntu sim)
+
+Q11 - Sim.
+
+Q12 - 53 comandos (não est+a na ficha).
+
+Q13 - Escrever "enc -help" no openssl
+
+-nopad
+-salt
+-nosalt
+-debug
+-bufsize val
+-K val
+-S val
+-iv val
+-md val
+-iter +int
+-pbkdf2
+-none
+-*
+
+Q14 - Sim.
+
+Q15 - Rivest Cipher
+
+Q16 - Não, porque me parece ter pouca entropia.
+
+Q17 - Não, não funcionou.
+
+Q18 - Está vazio.
+
+Q19 - 
+
+K   - Chave da cifra em hexadecimal.
+    - Chave da cifra em ASCII.
+out - Nome do ficheiro de saída.
+in  - Nome do ficheiro de entrada.
+e   - Operação de cifra.
+
+
+
+
+
+
