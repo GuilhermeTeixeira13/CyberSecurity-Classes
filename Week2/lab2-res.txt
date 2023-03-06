@@ -70,7 +70,7 @@ openssl enc -chacha20 -d -k abcdefg0123456789 -in ciphertext.cc20 -out solved.cc
 
 Q21? - Sim, precisei nomeadamente da chave de cifra.
 
-Q22? - Ao facto da mesma chave de cifra ser usada para cifrar e para decifrar
+Q22? - Ao facto do algoritmo de cifra ser igual ao algoritmo de decifra.
 
 Q23? -  Sim.
 
@@ -79,12 +79,3 @@ Q24? - ?
 Q25? - Rivest Cipher 4
 
 Q26? -  Wired Equivalent Privacy (WEP).
-
-
-
-
-
-
-
-
-
