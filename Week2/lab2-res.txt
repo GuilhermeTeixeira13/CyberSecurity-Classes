@@ -48,7 +48,9 @@ Q14 - Sim.
 
 Q15 - Salsa20
 
-openssl enc -chacha20 -e -k abcdefg0123456789 -in plaintext.txt -out ciphertext.cc20 
+(tirei o g, para aceitar apenas caracteres hexa e adicionei -iv 0)
+
+openssl enc -chacha20 -e -k abcdef0123456789 -in plaintext.txt -out ciphertext.cc20 -iv 0
 
 Q16 - Não, porque me parece ter pouca entropia.
 
@@ -56,26 +58,26 @@ Q17 - Não, não funcionou.
 
 Q18 - Está vazio.
 
-Q19? - 
+Q19 - 
 
 K   - Chave da cifra em hexadecimal.
-    - Chave da cifra em ASCII.
+k   - Chave da cifra em ASCII.
 out - Nome do ficheiro de saída.
 in  - Nome do ficheiro de entrada.
 e   - Operação de cifra.
 
-Q20? - 
+Q20 - 
 
 openssl enc -chacha20 -d -k abcdefg0123456789 -in ciphertext.cc20 -out solved.cc20  
 
-Q21? - Sim, precisei nomeadamente da chave de cifra.
+Q21 - Sim, precisei nomeadamente da chave de cifra.
 
-Q22? - Ao facto do algoritmo de cifra ser igual ao algoritmo de decifra.
+Q22 - A mesma chave é usada para cifrar e decifrar.
 
-Q23? -  Sim.
+Q23 -  Sim.
 
-Q24? - ?
+Q24 - 256GiB
 
-Q25? - Rivest Cipher 4
+Q25 - Rivest Cipher 4
 
-Q26? -  Wired Equivalent Privacy (WEP).
+Q26 -  Wired Equivalent Privacy (WEP).

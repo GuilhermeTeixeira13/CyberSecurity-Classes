@@ -1,0 +1,26 @@
+Q1 - 32
+
+Q2 - Sim, é, porque a sequência depende apenas do valor inicial (seed) que, neste casom é igual nos dois casos.
+
+Q3 - Sim.
+
+Q4 - Sim, só tenho de invocar a função da seguinte forma: encypt("ciphertext.txt", "plaintext-2.txt", 123456789);
+
+Q5 - Desconfiado.
+
+Q6 - Não, de maneira nenhuma.
+
+Q7 - Sim.
+
+Q8 - Cifra de chave simétrica por blocos.
+
+Q9 - Sim, noto algo assustador.
+
+Q10 - Sim, pelos vistos sim.
+
+Q11 - 0
+
+Q12 - Sim, sem problema.
+
+
+A RC4, ChaCha20, Salsa20 são todas cifras de chave simétrica contínua.
