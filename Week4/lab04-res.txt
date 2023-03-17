@@ -1,0 +1,41 @@
+Q1 - Resposta B -> logb(n)
+
+Q2 - 256 (de 0 a 255)
+
+Q3 - 2.41
+
+T2 -
+ 
+texto.txt - 1450 - 3.19
+text.zip - 979 - 5.18
+cifrado.aes - 1456 - 5.44
+comprimido_cifrado - 1632 - 5.43
+cifrado_comprimido - 1628 - 5.43
+
+Q4 -
+
+Q5 - 32bytes
+
+Q6 - Primeiro comprimo e depois cifro.
+
+Q7 - Advanced Encryption Standart
+
+Q8 - Cifra de chave simétrica por blocos contínua
+
+Q9 - Sim
+
+Q10 - 16bytes
+
+Q11- Não precisa.
+
+Q12/13 - Adicionar um iv qualquer.
+
+Q14 - Cypher Block Chaining 
+
+Q15 - Modo de utilização.
+
+Q16 - Não vejo qq padrão.
+
+Q17 - Distintos
+
+
