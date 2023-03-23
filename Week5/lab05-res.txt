@@ -1,0 +1,71 @@
+Lab05 - Resolução
+
+T1 - 
+openssl dgst -sha1 PodiaSerAFreqMasNaoE-1.pdf
+openssl dgst -md5 PodiaSerAFreqMasNaoE-1.pdf
+
+Q1 - Sim, iguais.
+
+Q2 - 
+1ªopção
+3ªopção
+
+Q3 - Ron Rivest
+
+Q4 - Sim, da cifra RC4.
+
+Q5 - MD5 -> 128 bits
+     SHA1 -> 160 bits
+     
+Q6 - Secure (Secure Hash Algorithm)
+
+Q7 - Digest (Message Digest Algorithm)
+
+Q8 - Não, são diferentes.
+
+Q9 - Acho que, neste caso, não foi isso que aconteceu.
+
+Q10 - 
+
+Integridade dos dados.
+
+Q11 - 
+
+Hashes e imagens do SO.
+Verificar a integridade do download.
+
+T5 -
+
+Original:
+SHA1: b3cbe221c632db7c15d83004b951edeeda64dba0 
+MD5: 019fde493d81f336c7eee83841c84a89
+
+openssl dgst -md5 original.txt
+openssl dgst -sha1 original.txt
+
+Alterado:
+SHA1: 1932e66b1cbf6029b27d0c3daa70bcd5a00cf570
+MD5: 2211b3c12f0d5572315695e8acc3a425
+
+Q12 - Totalmente diferentes.
+
+Q13 - Mudaram aproximadamente 1/2 dos bits.
+
+Q14 - 
+
+4ªopção
+
+Q15 - Não. As alterações produzidas parecem ser aparentemente imprevisíveis.
+
+Q16 - Força bruta tentando todas as combinações até encontrar uma que dê.
+
+Q17 - Resistência à descoberta de um segundo texto original.
+
+Q18 - Não, a probabilidade é muito baixa. Em tempo útil não.
+
+Q19 - Resistência a colisões.
+
+Q20 - Sim, é "Pedro". MD5 center têm uma base de dados gigante de HASH.
+
+Q21 - Não, não é seguro.
+
