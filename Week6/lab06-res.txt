@@ -1,0 +1,8 @@
+Lab06 - Resolução
+
+
+Q1 - 8 bytes
+
+Q2 - cc programa.c -lcrypto
+
+Q3 - Desde que use a codificação da chave certa em ambas as implementações...
