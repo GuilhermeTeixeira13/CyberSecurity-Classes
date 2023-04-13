@@ -1,0 +1,11 @@
+Q1 -  MAC = Message Authentication code
+
+Tarefa 1
+
+openssl dgest -sha1 texto-limpo.txt > texto-limpo.sha1
+
+openssl enc -aes128 -e -in texto-limpo.sha1 -out texto-limpo.aes-sha1 -k 5555ffff1234aedf9876cbcb6546789e
+
+Tarefa 2
+
+ 
