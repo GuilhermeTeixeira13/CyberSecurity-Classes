@@ -6,3 +6,9 @@ Q1 - 8 bytes
 Q2 - cc programa.c -lcrypto
 
 Q3 - Desde que use a codificação da chave certa em ambas as implementações...
+
+Q4 - javac sha1sum.java
+
+Q5 - Sim.
+
+Q6 - Sim, foi.
