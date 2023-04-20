@@ -4,8 +4,48 @@ Tarefa 1
 
 openssl dgest -sha1 texto-limpo.txt > texto-limpo.sha1
 
-openssl enc -aes128 -e -in texto-limpo.sha1 -out texto-limpo.aes-sha1 -k 5555ffff1234aedf9876cbcb6546789e
+openssl enc -aes128 -e -in texto-limpo.sha1 -out texto-limpo.aes-sha1 -k 5555ffff1234aedf9876cbcb6546789e -iv 0
 
 Tarefa 2
 
- 
+openssl enc -aes128 -d -in mac-colega.aes-sha1 -out hash-colega.sha1 -k 5555ffff1234aedf9876cbcb6546789e
+
+openssl dgest -sha1 texto-limpo-colega.txt > hash-texto-colega.sha1
+
+diff hash-texto-colega.sha1 hash-colega.sha1 
+
+Q2 - Verifica 
+
+Q3 - Não, não é, pq o ficheiro é diferente.
+
+Q4 - Todos os que possuem a chave secreta.
+
+Q5 - Garantia que não sofreu erros aleatórios durante a transmição.
+
+Q6 - Sim:
+
+openssl dgst -sha1 -hmac key texto-limpo.txt > texto-limpo.hmac
+
+Q7 - Hash.
+
+Tarefa 4
+
+openssl dgst -sha1 -hmac key texto-limpo.txt > texto-limpo.hmac
+
+diff texto-limpo.hmac texto-limpo-colega.hmac
+
+Q8 - Não, não é, mas o 3 já é: 
+
+2^0 mod 17
+até
+2^16 mod 17 não gera todos os números de 0 a 16
+
+3^0 mod 17
+até
+3^16 mod 17 gera todos os números de 0 a 16
+
+Q9 - 14 - Tentativa erro.
+
+Q10 - Mais que tudo isso.
+
+Q11 - Sim, pq apena o atacante consegue escutar as comunicações.
