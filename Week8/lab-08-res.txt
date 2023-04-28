@@ -1,0 +1,124 @@
+Tarefa 1
+
+p - 23
+q - 29
+N = n1 x n2 = 667
+oN = 616
+
+e x d = 1 mod oN
+e x d mod On = 1
+e x d mod 616 = 1 (scrip em python para encontrar o e e o d)
+e = 3
+d = 411
+
+
+pk = (e, N) = 3, 667
+
+sk = d = 411
+
+Tarefa 2
+
+Numero q eu vou cifrar para O joão -> 13
+Joao pk = (9, 247)
+13 ^ 9 mod 247 = 208
+
+Q1 - Não, n há qualquer problema nisso
+
+Q2 - Pq eu lhe dei diretamente.
+
+Q3 - Não.
+
+O João cifrou com a minha pk e deu -> 111
+
+111 ^ 411 mod 667 = 181 (certo)
+
+Q4 - Pública.
+
+Q5 - Privada.
+
+Tarefa 4
+
+openssl genrsa -out sk_and_pk.pem 1024 (ficheiro com a chave privada e pública escondida)
+
+openssl rsa -in sk_and_pk.pem -pubout -out pk-nome-aluno.pem (para tirar a chave pública do ficheiro sk_and_pk.pem e enviar para pk-nome-aluno.pem)
+
+openssl rsa -in pk-nome-aluno.pem -pubin -text -noout (mesmo do anterior)
+
+Tarefa 5
+
+openssl rand -hex 16 > secret.key
+
+Crifrar o secret.key antes de enviar para o colega:
+openssl rsault -encrypt -inkey pk-colega.pem -pubin -in secret.key -out secret.key.rsa
+
+Q6 - Sim.
+
+Tarefa 6
+
+Decifrar o criptograma recebido:
+openssl rsault -decrypt -inkey pk-nome-aluno.pem -in secret.key.rsa -out numero-colega.txt
+
+Q7 - 1024
+
+Q8 - 2ª opção.
+
+Q9 - Pretty Good Privacy
+
+Cifragem - Pessoa A:
+
+(Cifrar o ficheiro com AES com uma certa chave)
+openssl enc -e -aes128 -in Portugal.txt -out Portugal.txt.aes -K chave
+
+colocal a chave dentro do secret.key
+
+(Cifrar a chave que usámos no AES com a chave pública do nosso amigo e enviá-la)
+openssl rsault -encrypt -in pk_colega.pem -pubin -inkey secret.key -out secret.key.rsa
+
+Decifragem - Pessoa B:
+
+(Decifrar, com a nossa chave privada, o criptograma q nos foi enviada pelo nosso amigo)
+openssl rsault -decrypt -in secret.key.rsa -inkey sk_and_pk.pem -out secret.key2
+
+(Usar o resultado da expressão anterior para decifrar o AES)
+openssl enc -d -aes128 -in Portugal.txt.aes -K chave -out Portugal.txt2
+
+cat Portugal.txt
+
+Q10 - Sim.
+
+openssl dgst -sha256 Portugal.txt > Portugal.txt.sha256
+
+openssl rsault -sign -inkey sk_and_pk.pem -in Portugal.txt.sha256 -out Portugal.txt.sign 
+
+Tarefa 9
+
+openssl dgst -sha256 Portugal.txt > Portugal.txt.sha256_2
+
+openssl rsault -verify -inkey pk_colega.pem -pubin Portugal.sign -out Portugal.txt.sha256
+
+diff Portugal.txt.sha256_2 Portugal.txt.sha256
+
+Tarefa 10
+
+openssl
+
+Tarefa 11
+
+(não corrigido)
+
+Q11 - Só quem possui a chave privada
+
+Q12 - Qualquer entidade.
+
+Q13 - Só quem possui a chave pública 
+
+Q14 - Só quem possui a chave simétrica secreta.
+
+Q15 - Todas menos Confidencialidade.
+
+Q16 - Integridade / Autencidade
+
+
+
+
+
