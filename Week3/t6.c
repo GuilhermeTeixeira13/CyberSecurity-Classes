@@ -19,9 +19,9 @@ void alterbyte(char * in, char * out, int ibytenumber){
 		fputc(b, fOUT);
 		b = fgetc(fIN);
 		i++;
-		fclose(fIN);
-		fclose(fOUT);
 	}
+	fclose(fIN);
+	fclose(fOUT);
 }
 
 
