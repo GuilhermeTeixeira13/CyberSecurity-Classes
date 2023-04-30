@@ -12,15 +12,15 @@ cifrado.aes - 1456 - 5.44
 comprimido_cifrado - 1632 - 5.43
 cifrado_comprimido - 1628 - 5.43
 
-Q4 -
+Q4 - CBC
 
-Q5 - 32bytes
+Q5 - 128 bits
 
 Q6 - Primeiro comprimo e depois cifro.
 
 Q7 - Advanced Encryption Standart
 
-Q8 - Cifra de chave simétrica por blocos contínua
+Q8 - Cifra de chave simétrica por blocos
 
 Q9 - Sim
 
@@ -30,7 +30,7 @@ Q11- Não precisa.
 
 Q12/13 - Adicionar um iv qualquer.
 
-Q14 - Cypher Block Chaining 
+Q14 - Cipher Block Chaining 
 
 Q15 - Modo de utilização.
 
