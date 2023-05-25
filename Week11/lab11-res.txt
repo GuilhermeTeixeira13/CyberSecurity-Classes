@@ -1,0 +1,80 @@
+Lab 11 - Resolução
+
+
+Q1 - 10.0.2.126
+
+Q2 - Sim, tem.
+
+Q3 - 10.0.2.0
+
+Q4 - /24
+
+Tarefa 2 - 
+
+sudo nmap -sn 10.0.2.0/24
+
+Q5 - -sn
+
+Q6 - Resposta C
+
+Q7 - 
+
+Q8 - Assim de repente não
+
+Tarefa 3
+
+IP1: 10.0.2.163 - Wndows Server 2016
+IP2: 10.0.2.193 - Windows Server 2000
+
+sudo nmap -o -v 10.0.2.163
+
+Q10 - Sim.
+
+Q11 - Opção C
+
+Q12 - O endereço é 10.0.2.1
+
+Q13 - Linux
+
+Q14 - 127.0.0.1
+
+Q15 - sudo nmap -o -v 127.0.0.1
+
+Q16 - Sim, pq tem algumas portas abertas com serviços a correr. Isto permite que o nmap
+consiga perceber facilmente qual é o SO. (Por isso é q o NMAP funciona bem para descobrir SO's de servidores).
+
+Q17 - Opção 4.
+
+Q18 - Primeira
+
+Tarefa 5
+
+Q19 - nmap -o --osscan-guess 10.0.2.193
+
+Q20 - nmap -sV 10.0.2.193
+
+Tarefa 7
+
+Versão 2.4.57
+
+Tarefa 9
+
+Q21 - Não (está estragada)
+
+...
+
+
+Atividade 4
+
+Q26 - A ideia é não deixar rasto
+
+Q27 - Synchronization
+
+Q28 - 
+
+Tarefa 11
+
+hping --flood -a IP-FAKE -s -p 80 IP-VITIMA 
+
+
+
